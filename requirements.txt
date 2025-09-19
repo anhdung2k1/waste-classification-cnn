@@ -1,0 +1,13 @@
+numpy
+pandas
+seaborn
+matplotlib
+Pillow
+scikit-learn
+tensorflow
+keras
+pydot
+graphviz
+# This requires to run jupyter lab in local environment
+jupyterlab
+kagglehub

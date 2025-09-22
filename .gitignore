@@ -1,0 +1,9 @@
+resnet50_garbage_classifier_model.keras
+vgg16_garbage_classifier_model.keras
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+yolov8n.pt
+venv/
+.ipynb_checkpoints/

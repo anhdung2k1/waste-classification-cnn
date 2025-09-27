@@ -10,11 +10,15 @@ seaborn
 # Image processing
 Pillow
 opencv-python==4.10.0.84
+
 # Machine Learning / Deep Learning
 scikit-learn
-tensorflow-macos==2.16.2
-tensorflow-metal==1.2.0
 keras>=3.0.0
+
+# TensorFlow (platform-specific)
+tensorflow==2.16.2; platform_system != "Darwin"
+tensorflow-macos==2.16.2; platform_system == "Darwin"
+tensorflow-metal==1.2.0; platform_system == "Darwin"
 
 # Model visualization
 pydot
